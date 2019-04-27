@@ -9,17 +9,17 @@ public class Komputer {
 
     Komputer(){}
 
-    public void memasang(CPU amd1) {
+    public void memasang(CPU cpu) {
         this.cpu = cpu;
-        System.out.println("CPU : " + this.cpu.getCPUData() + "dipasang");
+        System.out.println("CPU : " + " " + this.cpu.getCPUData() + "dipasang");
     }
 
-    public void mencabut(CPU intel1){
-        System.out.println("CPU : " + this.cpu.getCPUData() +  "dicabut");
+    public void mencabut(CPU cpu){
+        System.out.println("CPU : " + " " + this.cpu.getCPUData() +  "dicabut");
         this.cpu = null;
     }
 
     public void cetakInfo(){
-        System.out.println("Spesifikasi : " + this.cpu.getCPUData());
+        System.out.println("Spesifikasi : " + " " + cpu.getCPUData());
     }
 }
