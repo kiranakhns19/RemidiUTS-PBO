@@ -1,6 +1,6 @@
 package com.modul;
 
-public class CPU extends Komputer {
+public class CPU {
     private String nama;
     private int kecepatan;
 
